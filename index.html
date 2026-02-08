@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komal Kumari | Fullstack-Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <header class="header">
+        <div class="cursor-light" data-cursor-light></div>
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Komal<span>.</span></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#skills" class="nav__link">Skills</a></li>
+            <li><a href="#work" class="nav__link">Work</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav__btns">
+          <i class="bx bx-moon change-theme" id="theme-button"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">Hello, I'm Komal</h1>
+            <h3 class="home__subtitle">Web Developer</h3>
+            <p class="home__description">
+              I build scalable web applications and data-driven solutions using
+              modern technologies.
+            </p>
+            <div class="home__btns">
+              <a href="#contact" class="button">Contact Me</a>
+              <a href="#work" class="button button--ghost">View Portfolio</a>
+            </div>
+          </div>
+          <div class="home__img-box">
+            <img
+              src="img/profile_img.jpeg"
+              alt="Prince Profile"
+              class="home__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About Me</h2>
+
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="img/resume_img.png" alt="Prince Tyagi" class="about__img" />
+          </div>
+
+          <div class="about__data">
+            <div class="about__info grid">
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__title">Experience</h3>
+                <span class="about__subtitle">Fresher</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-briefcase-alt about__icon"></i>
+                <h3 class="about__title">Completed</h3>
+                <span class="about__subtitle">3+ Projects</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-support about__icon"></i>
+                <h3 class="about__title">Support</h3>
+                <span class="about__subtitle">Online 24/7</span>
+              </div>
+            </div>
+
+            <p class="about__description">
+              I am a dedicated Web Developer with a passion for building
+              scalable backend systems and responsive user interfaces. With a
+              strong foundation in modern technologies, I aim to deliver clean,
+              efficient code that solves real-world problems.
+            </p>
+
+            <a
+              href="komal_resume_mca.pdf"
+              class="button about__button"
+              download
+            >
+              Download CV <i class="bx bx-file"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="profiles section">
+        <span class="section__subtitle">Achievements</span>
+        <h2 class="section__title">Coding Profiles</h2>
+
+        <div class="profiles__container container grid">
+          <div class="profile__card">
+            <div class="profile__icon-box">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png"
+                alt="HackerRank"
+                class="profile__logo"
+              />
+            </div>
+            <h3 class="profile__name">HackerRank</h3>
+            <p class="profile__detail">Problem Solving & Algorithms</p>
+            <a
+              href="https://www.hackerrank.com/profile/saraf_komalkuma1"
+              target="_blank"
+              class="profile__button"
+            >
+              Visit Profile <i class="bx bx-right-arrow-alt"></i>
+            </a>
+          </div>
+
+          <div class="profile__card">
+            <div class="profile__stats-box">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+                alt="LeetCode Stats"
+                class="profile__stats-img"
+              />
+            </div>
+            <h3 class="profile__name">LeetCode</h3>
+            <p class="profile__detail">Data Structures & Logic</p>
+            <a
+              href="https://leetcode.com/u/KOMA749/"
+              target="_blank"
+              class="profile__button"
+            >
+              View Stats <i class="bx bx-right-arrow-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+  <span class="section__subtitle">My Technical Level</span>
+  <h2 class="section__title"><i class="bx bx-laptop"></i> Skills & Abilities</h2>
+
+  <div class="skills__container container grid">
+    <div class="skills__card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skills__img">
+      <h3 class="skills__name">Java</h3>
+    </div>
+
+    <div class="skills__card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" class="skills__img">
+      <h3 class="skills__name">JavaScript</h3>
+    </div>
+
+    <div class="skills__card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="skills__img">
+      <h3 class="skills__name">HTML</h3>
+    </div>
+
+    <div class="skills__card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="skills__img">
+      <h3 class="skills__name">CSS</h3>
+    </div>
+
+    <div class="skills__card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" class="skills__img">
+      <h3 class="skills__name">Bootstrap</h3>
+    </div>
+
+    <div class="skills__card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="skills__img">
+      <h3 class="skills__name">MySQL</h3>
+    </div>
+
+    <div class="skills__card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="skills__img">
+      <h3 class="skills__name">MongoDB</h3>
+    </div>
+
+    <div class="skills__card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skills__img">
+      <h3 class="skills__name">Python</h3>
+    </div>
+
+    <div class="skills__card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="skills__img">
+      <h3 class="skills__name">React</h3>
+    </div>
+
+    <div class="skills__card">
+      <i class='bx bx-brain skills__icon-special'></i>
+      <h3 class="skills__name">DSA</h3>
+    </div>
+
+    <div class="skills__card">
+      <i class='bx bxl-github skills__icon-fixed'></i>
+      <h3 class="skills__name">GitHub</h3>
+    </div>
+  </div>
+
+<section class="work section" id="work">
+  <section class="work section" id="work">
+    <span class="section__subtitle">My Portfolio</span>
+    <h2 class="section__title">Recent <span>Projects</span></h2>
+</section>
+
+  <div class="work__container container grid">
+    <article class="work__card">
+      <div class="work__img-box">
+        <img src="img/finance_img.png" alt="Shyam Fin" class="work__img">
+        <div class="work__info">
+          <h3 class="work__title">Shyam Fin</h3>
+          <p class="work__description">
+            A secure banking and finance portal providing high-yield investment tracking and loan management solutions.
+          </p>
+          <div class="work__pills">
+            <span>React, Node</span>
+            <span>MySQl</span>
+          </div>
+          <a href="https://shyam-finance.vercel.app/" class="work__button">Goto Website</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="work__card">
+      <div class="work__img-box">
+        <img src="img/E-commers.png" alt="BuyTrend E-commerce" class="work__img">
+        <div class="work__info">
+          <h3 class="work__title">BuyTrend</h3>
+          <p class="work__description">
+            A responsive fashion e-commerce site with advanced search, category filtering, and a seamless shopping cart experience.
+          </p>
+          <div class="work__pills">
+            <span>React</span>
+            <span>Bootstrap</span>
+          </div>
+          <a href="#" class="work__button">Visit Store</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+<section class="certificate section" id="certificate">
+    <span class="section__subtitle">My Achievements</span>
+    <h2 class="section__title">Official <span>Certificates</span></h2>
+
+    <div class="certificate__container container grid">
+        <article class="certificate__card">
+            <div class="certificate__img-box">
+                <img src="img/simpli.png" alt="C Programming" class="certificate__img">
+            </div>
+            <div class="certificate__data">
+                <h3 class="certificate__title">SQL </h3>
+                <p class="certificate__description">Simpli Learn (2024)</p>
+            </div>
+        </article>
+
+        <article class="certificate__card">
+            <div class="certificate__img-box">
+                <img src="img/Network Certificate.jpg" alt="CCNA Networking" class="certificate__img">
+            </div>
+            <div class="certificate__data">
+                <h3 class="certificate__title">CCNA: Introduction to Networks</h3>
+                <p class="certificate__description">CISCO Networking Academy (2025)</p>
+            </div>
+        </article>
+
+        <article class="certificate__card">
+            <div class="certificate__img-box">
+                <img src="img/komal_eduskils_aws_page-0001.jpg" alt="Java Fundamentals" class="certificate__img">
+            </div>
+            <div class="certificate__data">
+                <h3 class="certificate__title">Eduskills AWS </h3>
+                <p class="certificate__description">Geekster (2025)</p>
+            </div>
+        </article>
+    </div>
+</section>
+     <section class="contact section" id="contact">
+    <span class="section__subtitle">Get in touch</span>
+    <h2 class="section__title">Contact Me</h2>
+
+    <div class="contact__container container grid">
+        <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+
+            <div class="contact__info">
+                <div class="contact__card">
+                    <i class='bx bx-mail-send contact__card-icon'></i>
+                    <h3 class="contact__card-title">Email</h3>
+                    <span class="contact__card-data">saraf.komalkumari@gmail.com</span>
+                    <a href="mailto:saraf.komalkumari@gmail.com" class="contact__button">
+                        Write me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                    </a>
+                </div>
+
+                <div class="contact__card">
+                    <i class='bx bxl-whatsapp contact__card-icon'></i>
+                    <h3 class="contact__card-title">WhatsApp</h3>
+                    <span class="contact__card-data">+91 8373975618</span>
+                    <a href="https://web.whatsapp.com/" target="_blank" class="contact__button">
+                        Message me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact__content">
+    <h3 class="contact__title">Write me your project</h3>
+
+    <form id="contact-form" action="https://formspree.io/f/mwveqbeo" method="POST" class="contact__form">
+        <div class="contact__form-div">
+            <label class="contact__form-tag">Names</label>
+            <input type="text" name="name" placeholder="Insert your name" class="contact__form-input" required>
+        </div>
+
+        <div class="contact__form-div">
+            <label class="contact__form-tag">Mail</label>
+            <input type="email" name="email" placeholder="Insert your email" class="contact__form-input" required>
+        </div>
+
+        <div class="contact__form-div contact__form-area">
+            <label class="contact__form-tag">Project</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Write your project" class="contact__form-input" required></textarea>
+        </div>
+
+        <button type="submit" class="button">Send Message</button>
+        
+        <p id="form-status" class="contact__form-status"></p>
+    </form>
+</div>
+    </div>
+</section>
+    </main>
+
+   <footer class="footer">
+    <div class="footer__container container">
+        <h1 class="footer__title">Komal<span>.</span></h1>
+
+        <ul class="footer__list">
+            <li><a href="#about" class="footer__link">About</a></li>
+            <li><a href="#work" class="footer__link">Projects</a></li>
+            <li><a href="#skills" class="footer__link">Skills</a></li>
+        </ul>
+
+        <ul class="footer__social">
+            <a href="https://github.com/komalkumari64" target="_blank" class="footer__social-link">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/komal-kumari-84115825a/" target="_blank" class="footer__social-link">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://web.whatsapp.com/" target="_blank" class="footer__social-link">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </ul>
+
+        <span class="footer__copy">
+            &#169; 2025 Komal Kumari. All rights reserved
+        </span>
+    </div>
+</footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
