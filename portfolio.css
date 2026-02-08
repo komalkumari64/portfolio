@@ -1060,5 +1060,30 @@ body:not(.dark-theme) .cursor-particle {
     font-size: var(--smaller-font-size);
     margin-bottom: 0.25rem;
 }
+.nav__logo {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;          /* dark background ke liye */
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav__logo span {
+  color: #00e0ff;          /* accent color (dot) */
+}
+
+/* hover effect */
+.nav__logo:hover {
+  color: #00e0ff;
+}
+
+.nav__logo:hover span {
+  color: #ffffff;
+}
+.nav__logo:hover {
+  text-shadow: 0 0 8px rgba(0, 224, 255, 0.6);
+}
 
 
